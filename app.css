@@ -10,6 +10,7 @@
 body {
     font-size: 19px;
     background: url(images/pattern-background-desktop.svg) no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 @media (max-width: 375px) {
@@ -32,4 +33,82 @@ body {
     text-align: center;
     background-color: white;
     box-shadow: 0 0 5px 5px hsl(227, 38%, 83%);
+}
+
+#headImg {
+    width: 20em;
+    border-top-right-radius: 0.8em;
+    border-top-left-radius: 0.8em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+#contentWeb {
+    margin: 0 1.5em;
+    padding: 0;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.7em
+}
+
+#details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    height: 5.2em;
+    width: 20em;
+    align-items: center;
+    font-size: 0.85em;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+#detail {
+    display: flex;
+    justify-content: center;
+    margin: 1.2em 0;
+}
+
+#details section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#details img {
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+    margin-left: 0;
+}
+
+#details a {
+    padding-left: 4em;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div button {
+    width: 20em;
+    height: 3.5em;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    color: white;
+}
+
+footer div a {
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+    font-weight: 900;
+    margin-top: 1.3em;
 }
