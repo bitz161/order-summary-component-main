@@ -8,25 +8,26 @@
 }
 
 body {
-    font-size: 20px;
-    background-color: hsl(225, 100%, 94%);
+    font-size: 19px;
+    background: url(images/pattern-background-desktop.svg) no-repeat;
 }
 
 @media (max-width: 375px) {
     body {
         font-size: 16px;
+        background: url(images/pattern-background-mobile.svg) no-repeat;
     }
 }
 
 #container {
     display: flex;
     justify-content: center;
-    margin-top: 4em;
+    margin-top: 4.2em;
 }
 
 #container main {
-    width: 16.8em;
-    height: 28em;
+    width: 20em;
+    height: 33em;
     border-radius: 15px;
     text-align: center;
     background-color: white;
